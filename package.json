@@ -1,7 +1,7 @@
 {
   "name": "notes-app-back-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# notes-app-back-end\" <br>\r Developed on NodeJS with Hapi Framework <br>\r Frontend: http://notesapp-v1.dicodingacademy.com/ <br>",
   "main": "index.js",
   "scripts": {
     "start-prod": "NODE_ENV=production node ./src/server.js",
@@ -20,5 +20,13 @@
   "dependencies": {
     "@hapi/hapi": "^21.0.0",
     "nanoid": "^3.3.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulioaldiw/notes-app-back-end.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yulioaldiw/notes-app-back-end/issues"
+  },
+  "homepage": "https://github.com/yulioaldiw/notes-app-back-end#readme"
 }
